@@ -20,11 +20,32 @@ export default defineConfig({
 	lastUpdated: true,
 	themeConfig: {
 		logo: "/logo.svg",
-		algolia: {
-			appId: "K9588QGDQG",
-			apiKey: "1c32155629ad42a8b1d091f76564c443",
-			indexName: "ruoyi-element-ai",
-		},
+    // 搜索相关配置
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          button: {
+            buttonText: '搜索文档',
+            buttonAriaLabel: '搜索文档',
+          },
+          modal: {
+            noResultsText: '无法找到相关结果',
+            resetButtonTitle: '清除查询条件',
+            footer: {
+              selectText: '选择',
+              navigateText: '切换',
+              closeText: '关闭',
+            },
+          },
+        },
+      },
+    },
+		// algolia: {
+		// 	appId: "K9588QGDQG",
+		// 	apiKey: "1c32155629ad42a8b1d091f76564c443",
+		// 	indexName: "ruoyi-element-ai",
+		// },
 		lastUpdated: {
 			text: '更新时间',
 			formatOptions: {
@@ -77,7 +98,7 @@ export default defineConfig({
 		],
 
 		sidebar: {
-			"/guide/": [
+			"/guide/": [ 
 				{
 					text: "指南",
 					collapsed: true,
