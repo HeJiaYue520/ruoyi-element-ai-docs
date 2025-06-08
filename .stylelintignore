@@ -1,0 +1,6 @@
+/dist/*
+/public/*
+public/*
+stats.html
+docs/.vitepress/dist
+docs/.vitepress/cache

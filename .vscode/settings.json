@@ -18,9 +18,6 @@
     "source.fixAll.stylelint": "explicit"
   },
 
-  // 开启 stylelint
-  "stylelint.validate": ["css", "less", "postcss", "scss", "vue", "sass", "html"],
-
   // 静默样式规则自动修复
   "eslint.rules.customizations": [
     { "rule": "style/*", "severity": "off", "fixable": true },
@@ -34,6 +31,9 @@
     { "rule": "*quotes", "severity": "off", "fixable": true },
     { "rule": "*semi", "severity": "off", "fixable": true }
   ],
+
+  // 开启 stylelint
+  "stylelint.validate": ["css", "less", "postcss", "scss", "vue", "sass", "html"],
 
   // 在eslin中开启哪些语言的校验
   "eslint.validate": [

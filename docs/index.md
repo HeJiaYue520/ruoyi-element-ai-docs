@@ -7,10 +7,10 @@ titleTemplate: 企业级 AI 应用全栈开发模板
 hero:
   name: ruoyi-element-ai
   text: 🎉AI应用开发模板
-  tagline: ❤️‍🔥 基于 Vue3.5 + Element-Plus-X + TypeScript + Hook-Fetch 等全新技术栈，助力开发者快速搭建企业级 AI 应用 ❤️‍🔥
+  tagline: ❤️‍🔥 基于 Vue3.5 + Element-Plus-X + Hook-Fetch + TypeScript + Eslint9 等全新技术栈，助力开发者快速搭建企业级 AI 应用 ❤️‍🔥
   actions:
     - theme: brand
-      text: 🚀 快速开始
+      text: 🚀 快速上手
       link: /guide/index
     - theme: alt
       text: 👉 在线演示
