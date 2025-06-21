@@ -50,7 +50,7 @@ pnpm install
 pnpm run dev
 ```
 
-访问地址：`http://localhost:8080`（端口可在配置文件中修改）。
+访问地址：`http://localhost:5173`（端口可在配置文件中修改）。
 
 ### 🚀 生产构建
 
